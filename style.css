@@ -18,12 +18,15 @@ header {
 .wel{
   font-family: 'Playwrite IE';
   font-size: 80px;
+  margin-top: 12%;
   margin-bottom: 0%;
+  text-align: center;
   color: #465b37;
-  margin-top: 180px;
+  
 }
 
 .sub{
+  text-align: center;
   margin-top: 0%;
   color: #687e5a;
 }
