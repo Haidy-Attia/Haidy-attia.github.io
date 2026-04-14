@@ -104,33 +104,11 @@ button:hover {
   background: #698f69;
 }
 
-.main{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-}
 
-.cont{
-  text-align: left;
-  margin-left: 20%;
-  color: #465b37;
-  margin-top: 180px;
-  font-size: 25px;
-}
-
-.contact{
-  margin-top: 10%;
-  margin-right: 20%;
- 
-  
-  
-}
 footer {
-  position: fixed;
-  right: 100px;
-  bottom: 50px;
   color: #465b37;
+  margin-top: 10%;
+  margin-left: 85%;
 }
 
 @media (max-width: 600px) {
