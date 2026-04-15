@@ -52,7 +52,8 @@ main {
 }
 
 table {
-  width: 80%;
+  width: 100%;
+  min-width: 600px; 
   margin: auto;
   border-collapse: collapse;
   background: white;
@@ -108,16 +109,36 @@ button:hover {
 footer {
   color: #465b37;
   margin-top: 10%;
-  margin-left: 85%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
 }
 
 @media (max-width: 600px) {
-  table {
-    width: 100%;
-  }
 
   form {
-    width: 90%;
+    width: 85%;
+    padding: 20px;
+  }
+
+  .wel {
+    font-size: 45px;
+    margin-top: 25%;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+    padding-right: 0;
   }
 }
 
